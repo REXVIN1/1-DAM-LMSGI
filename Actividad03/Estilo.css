@@ -1,0 +1,17 @@
+*{
+	text-align: left;
+}
+i{
+	margin-right: 2%;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	padding: 10px;
+	background-color: lightgray;
+}
+td{
+	width: 190px;
+}
