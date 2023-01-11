@@ -1,0 +1,208 @@
+:root{
+	--negro: rgb(28, 30, 31);
+}
+*{
+	color: gray;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-attachment: fixed;
+	background-color: darkred;
+	background-image: url('img/principal/fondo4.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+header{
+	background-image: url('img/principal/fondo8.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-width: 5px 0px;
+	border: solid black;
+	box-shadow: 0px 0px 300px black;
+	margin: 2% 0%;
+	padding: 2% 0%;
+	text-align: center;
+}
+nav{
+	background-image: url('img/principal/fondo8.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0px 0px 300px black;
+	display: flex;
+	justify-content: space-around;
+	margin: 2% 0%;
+	padding: 1% 0%;
+	border: solid gray;
+	border-width: 2px 0px;
+}
+nav a{
+	background-image: url('img/principal/fondo4.jpg');
+	border: 1px solid rgb(80, 80, 80);
+	color: rgb(80, 80, 80);
+	filter: brightness(2);
+	font-size: 11pt;
+	font-weight: bold;
+	padding: 0.4%;
+	text-align: center;
+	text-decoration: none;
+	width: 60px;
+}
+nav a:hover{
+	background-color: rgb(200, 0, 0);
+	box-shadow: 0px 0px 20px darkred;
+	cursor: pointer;
+	scale: 1.1;
+}
+main{
+	background-image: url('img/principal/fondo8.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border: 3px solid black;
+	box-shadow: 0px 0px 300px black;
+	color: grey;
+	height: 100%;
+	margin: 2%;
+	padding: 0% 2%;
+}
+section{
+	background-color: var(--negro);
+	text-align: center;
+}
+article{
+	border: 1px solid;
+	line-height: 150%;
+	margin: 5% 0%;
+	padding: 2%;
+	text-align: center;
+}
+h1, h2{
+	color: rgb(200, 200, 200);
+}
+footer{
+	background-image: url('img/principal/fondo8.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0px 0px 300px black;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2%;
+	padding: 1.5% 2%;
+	text-align: right;
+	border: solid;
+	border-width: 1px 0px;
+}
+footer>section{
+	background: none;
+}
+hr{
+	border-color: rgb(80, 80, 80);
+	margin: 2% 0%;
+}
+#cabecera img{
+	background-color: rgba(139, 0, 0, 0.5);
+	border-radius: 30px;
+	box-shadow: 0px 0px 30px darkred;
+	height: 250px;
+	margin: 20px;
+	width: 250px;
+}
+main #sobre-mi header img{
+	background-color: rgba(139, 0, 0, 0.5);
+	border-radius: 100px;
+	box-shadow: 0px 0px 30px darkred;
+	height: 200px;
+	margin: 20px;
+	width: 200px;
+}
+main #formacion header img{
+	background-color: rgba(139, 0, 0, 0.5);
+	border-radius: 100px;
+	box-shadow: 0px 0px 30px darkred;
+	height: 200px;
+	margin: 20px;
+	width: 200px;
+}
+main #hard-skills header img{
+	background-color: rgba(139, 0, 0, 0.5);
+	border-radius: 100px;
+	box-shadow: 0px 0px 30px darkred;
+	height: 200px;
+	margin: 20px;
+	width: 200px;
+}
+main #soft-skills header img{
+	background-color: rgba(139, 0, 0, 0.5);
+	border-radius: 100px;
+	box-shadow: 0px 0px 30px darkred;
+	height: 200px;
+	margin: 20px;
+	width: 200px;
+}
+main #email header img{
+	background-color: rgba(139, 0, 0, 0.5);
+	border-radius: 100px;
+	box-shadow: 0px 0px 30px darkred;
+	height: 200px;
+	margin: 20px;
+	width: 200px;
+}
+main #social-networks header img{
+	background-color: rgba(139, 0, 0, 0.5);
+	border-radius: 100px;
+	box-shadow: 0px 0px 30px darkred;
+	height: 200px;
+	margin: 20px;
+	width: 200px;
+}
+ul{
+	display: inline-block;
+}
+li{
+	text-align: left;
+}
+#social-networks>p>a:hover{
+	color: darkred;
+}
+#mensaje{
+	height: 300px;
+	width: 400px;
+}
+a:hover, label{
+	cursor: pointer;
+}
+button[type="submit"]{
+	background-image: url('img/principal/fondo4.jpg');
+	border: 1px solid rgb(80, 80, 80);
+	color: rgb(80, 80, 80);
+	filter: brightness(2);
+	font-size: 11pt;
+	font-weight: bold;
+	padding: 0.4%;
+	width: 100px;
+}
+button[type="submit"]:hover{	
+	background-color: rgb(200, 0, 0);
+	cursor: pointer;
+	transform: scale(1.1);
+	transition: 0.5s;
+}
+input[type="text"]{
+	border: 1px solid gray;
+	background-color: rgb(50, 50, 50);
+	color: gray;
+	padding: 2px;
+}
+form{
+	padding: 2%;
+}
+legend{
+	color: white;
+	font-size: 15pt;
+	font-weight: bold;
+}
