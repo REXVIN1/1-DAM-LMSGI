@@ -1,0 +1,181 @@
+*{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+body{
+	background-image: url(fondo2.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+}
+main{
+	background-color: rgba(0, 0, 50, 0.8);
+	text-align: center;
+	border: solid black;
+	margin: 2%;
+	border-radius: 25px;
+}
+header{
+	background-color: rgba(0, 0, 50, 0.8);
+	border: 2px solid black;
+	margin: 0.5% 0% 0.5%;
+}
+nav{
+	background-color: rgba(0, 0, 50, 0.8);
+	border: 1px solid black;
+	padding: 3px;
+	margin-bottom: 0.5%;
+}
+section{
+	background-color: rgba(28, 30, 31,0.9);
+	margin: 0.5%;
+	padding: 0.6%;
+	border-radius: 25px;
+}
+article{
+	background-color: rgba(244,244,244,0.8);
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 30px;
+	border-radius: 25px;
+	padding: 0.1%;
+	margin: 0.5%;
+}
+aside{
+	background-color: rgba(0,0,0,0.5);
+}
+aside img{
+	border: 5px solid black;
+	width: auto;
+}
+td img{
+	width:150px;
+	height:150px;
+	margin-top: 11%;
+	margin-bottom: 11%;
+}
+button{
+	background-color: rgba(0, 0, 50, 0.8);
+	text-align: center;	
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	border: 2px solid;
+	border-radius: 6px;
+	padding: 0.3%;
+	margin: 0.3%;
+	transition: transform linear;
+}
+input{
+	background-color: rgba(0, 0, 50, 0.8);
+	text-align: center;	
+	color: black;
+	font-size: 15px;
+	font-weight: bold;
+	border: 2px solid white;
+	border-radius: 6px;
+	padding: 3%;
+	margin: 0.3%;
+}
+input:hover{
+	background-color: rgba(205, 205, 205, 0.3);
+}
+#boton{
+	color: white;
+}
+#boton:hover{
+	background-color: rgba(0, 0, 50, 0.8);
+	transform: scale(1.1);
+	
+}
+button:hover{
+	background-color: rgba(0, 0, 50, 0.8);
+	transform: scale(1.1);
+	box-shadow: 5px 0px 10px blue,-5px 0px 10px blue,0px 5px 10px blue,0px -5px 10px blue;
+	transform: rotate(15deg);
+}
+h1{
+	font-size: 40px;
+	color: white;
+	font-family: 'Noto Sans JP';
+}
+h1:hover{
+	text-shadow: 5px 0px 20px blue;
+}
+h2{
+	font-size: 40px;
+}
+h3{
+	margin-top: 0%;
+	padding-top: 1%;
+	font-size: 40px;
+	font-family: 'Noto Sans JP';
+}
+h4{
+	font-size: 20pt;
+}
+ol{
+	padding-left: 5%;
+	padding-right: 5%;
+}
+li{
+	text-align: left;
+	padding-bottom: 2%;
+}
+a{
+	text-decoration: none;
+}
+iframe{
+	border: 2px solid white;
+	border-radius: 25px;
+}
+lord-icon{
+	width:100px;
+	height:100px;
+}
+form{
+	width: 230px;
+	border: 2px solid black;
+	border-radius: 25px;
+	font-family: 'Noto Sans JP';
+	text-align: left;
+	background-color: gray;
+	margin-bottom: 2%;
+	padding: 1.5%;
+}
+span{
+	font-size: 11pt;
+	text-align: left;
+}
+footer{
+	color: white;
+	text-align: right;
+	background-color: rgba(0, 0, 50, 0.8);
+}
+#tabla td{
+	width: 1000px;
+}
+#seccion{
+	width: 90%;
+	margin-bottom: 2%;
+}
+.centrar{
+	margin-left: auto;
+	margin-right: auto;
+}
+.centrar2{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#mail{
+	width:1%;
+	height:1%;
+}
+#find{
+	width:1%;
+	height:1%;
+}
