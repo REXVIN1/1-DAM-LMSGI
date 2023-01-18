@@ -1,9 +1,0 @@
-body{
-	background-image: url('foto1.jpg'), url('foto1.jpg'), url('foto1.jpg'), url('foto2.jpg');
-	background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
-	background-size: 30px 30px, 70px 70px, 100px 100px, cover;
-	background-attachment: fixed;
-	background-position: left, center, right, center;
-	background-position-y: 80%, 80%, 80%, unset;
-	color: white;
-}
