@@ -1,0 +1,11 @@
+p:first-of-type{
+	border: 2px solid black;
+	width: 400px;
+	transform: translate(50px, 0px);
+}
+p:last-of-type{
+	border: 2px solid black;
+	width: 400px;
+	transform: translate(0px, 40px);
+}
+/*n medio del ancho*/ 
