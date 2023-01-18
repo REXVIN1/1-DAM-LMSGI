@@ -1,0 +1,11 @@
+p{
+	background-image: url('foto2.jpg');
+	background-origin: padding-box;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border: 5px solid red;
+	color: white;
+	height: 200px;
+	padding: 50px;
+	width: 400px;
+}

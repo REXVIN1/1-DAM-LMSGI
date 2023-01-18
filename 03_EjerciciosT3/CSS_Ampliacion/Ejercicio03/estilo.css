@@ -1,0 +1,8 @@
+p{
+	column-count: 3;
+	column-gap: 30px;
+	column-rule: 1px solid gray;
+	background-color: rgb(30, 30, 30);
+	color: gray;
+	padding: 10px;
+}

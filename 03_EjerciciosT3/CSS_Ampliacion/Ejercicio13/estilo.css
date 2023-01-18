@@ -1,0 +1,13 @@
+p:last-of-type{
+	background-image: url('foto1.jpg'), url('foto2.jpg');
+	background-position: center;
+	background-repeat: no-repeat, no-repeat;
+	background-size: 540px 270px, cover;
+	border: 2px solid black;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5%;
+	rotate: 50deg;
+	width: 500px;
+}

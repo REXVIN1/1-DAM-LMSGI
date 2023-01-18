@@ -1,0 +1,8 @@
+p:last-of-type{
+	border: 2px solid black;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	transform: scaleY(0.5) skewY(45deg) ;
+}
+/*¿La alineación en el centro debe hacerse con transform?*/
