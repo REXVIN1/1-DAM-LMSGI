@@ -1,0 +1,113 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{	
+	background-color: rgb(28, 30, 31);
+	color: white;
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+	font-size: 12px;
+	text-align: center;
+}
+main{
+	padding: 2% 0%;
+	background-color: #ccff99;
+}
+nav {
+	background-color: darkslategray;
+	border: solid black;
+	border-width: 3px 0px;
+	display: flex;
+	justify-content: space-around;
+	padding: 5px 0%;
+}
+main section{
+	background-color: white;
+	border-radius: 10px;
+	color: #333333;
+	padding: 2%;
+	text-align: left;
+	margin: 0% 2%;
+	column-count: 2;
+	height: 100%;
+	column-gap: 40px;
+	column-rule: 1px solid black;
+	box-shadow: 0px 0px 20px black;
+}
+p{
+	margin-bottom: 5%;
+}
+main section article:last-of-type div{
+	margin: 0% auto;
+	justify-content: space-around;
+}
+header {
+	background-color: black;
+	background-image: url(header.png);
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: center;
+	padding: 5% 0%;
+	background-size: cover;
+}
+header h1{
+	font-size: 30pt;
+	background-color: rgb(128, 128, 128, 0.7);
+	font-family: emoji;
+}
+header h2{
+	background-color: rgb(128, 128, 128, 0.7);
+	font-family: sans-serif;
+}
+header a{
+	text-decoration: none;
+	color: white;
+}
+button {
+	background-image: linear-gradient(to bottom, rgb(180,230,130) , green);
+	border-radius: 10px;
+	border: 2px solid;
+	font-family: monospace;
+	font-size: 11pt;
+	font-weight: bolder;
+	margin-left: 1%;
+	padding: 0.1%;
+	text-align: center;
+	width: 130px;
+}
+nav button:first-of-type{
+	display: inline-grid;
+}
+nav button img{
+	height: 25px;
+	width: 25px;
+}
+button a{
+	text-decoration: none;
+	color: black;
+}
+button:hover{	
+	cursor: pointer;
+	box-shadow: 0px 0px 10px black;
+}
+footer{
+	margin-bottom: 1%;
+}
+footer section:first-of-type{
+	background-color: black;
+	font-size: 12px;
+	justify-content: space-around;
+	padding: 1%;
+	display: flex;
+}
+footer section:first-of-type div:last-of-type a:hover{
+	color: #ccff99;
+	transform: scale(1.1);
+}
+footer section:first-of-type div:last-of-type a{
+	color: white;
+}
+footer section:last-of-type{
+	background-color: rgb(28, 30, 31);
+	padding: 2%;
+}
